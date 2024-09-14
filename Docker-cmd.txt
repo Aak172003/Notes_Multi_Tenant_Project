@@ -1,3 +1,7 @@
 This is used to run auth-service image 
 
+And if want to sync the localrepo with docker repo except node_modules
+so use "dev": "nodemon src/server.ts --legacy-watch"
+
+
 docker run --rm -it -v ${PWD}:/usr/src/app -v /usr/src/app/node_modules --env-file ${PWD}/.env -p 5501:5501 -e NODE_ENV=development auth-service:dev

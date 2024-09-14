@@ -1,0 +1,21 @@
+How install as a dev dependencies
+
+npm install -D ______________________
+
+This is used to generate tsconfig file 
+
+./node_modules/.bin/tsc --init
+or 
+npx tsc --init
+
+
+Then change this rootDir file 
+
+"rootDir": "./src",   
+"outDir": "./dist" /* Specify an output folder for all emitted files. */,        
+        
+This is used to created dist file , or compile ts file into js file 
+npx tsc
+
+
+Note : re-again compile typescript 

@@ -1,0 +1,14 @@
+This is how onstall prettier as save-exact , which means prettier library freeze , 
+If i install so always install same version
+
+npm install --save-dev --save-exact prettier
+
+save exact because prettier is opiniated formateer 
+
+
+This command is used to cehck how many not formated , and need to apply prettier 
+npx prettier . --check
+
+
+This command is used to apply prettier
+npx prettier . --write

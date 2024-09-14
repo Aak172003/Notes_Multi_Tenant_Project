@@ -1,0 +1,16 @@
+EsLint is a static code analyser
+This will tell problem during developement phase 
+
+It helps to improve code quality
+
+
+Eslint only work with 8.57.0 version 
+
+npm install eslint@8.57.0 --save-dev
+
+
+This tell us which file need , linting 
+npx eslint .
+
+This is used to perform autofix 
+npx eslint . --fix

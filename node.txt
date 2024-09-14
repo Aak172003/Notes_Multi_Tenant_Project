@@ -1,0 +1,10 @@
+Original node version - v21.6.1
+nvm use 21.6.1 
+
+But currently use 
+nvm use 18.17.1 version for this project 
+
+-----------------------------------------------------------------------
+
+.nvmrc file is used to show what node version we are selecting , 
+so everyone go with the consistent node version 

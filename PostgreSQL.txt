@@ -1,0 +1,5 @@
+docker run --rm --name mernauthdata-container -e POSTGRES_USER=root -e POSTGRES_PASSWORD=root -v mernauthdata:/var/lib/postgresql/data -p 5432:5432 -d postgres
+
+This is the command to run PostgreSQL 
+
+Type ORM is used to connect the Postgres db with our application

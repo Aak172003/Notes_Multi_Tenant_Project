@@ -1,0 +1,4 @@
+1. command to generate migration
+npm run migration:generate -- src/migrations/migration -d .\src\config\data-source.ts
+
+2. 

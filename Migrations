@@ -2,4 +2,7 @@
 npm run migration:generate -- src/migrations/migration -d .\src\config\data-source.ts
 
 2. how to run migrations code
-npm run migration:run -- -d .\src\config\data-source.ts    
+npm run migration:run -- -d .\src\config\data-source.ts 
+
+3. This is how create empty migration file using create migration:create command 
+npm run migration:create  .\src\migrations\add-refreshToken_cascade
